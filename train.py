@@ -261,9 +261,12 @@ def main():
         trainer = Trainer()
         trainer.train(log_dir='./output_20200918/log', restore=True, log_step=5, val_step=50, cfg_name='resnet',
                       ckpt_dir='./output_20200918/checkpoint/default',
-                      chars_file='./data/chars/lexicon.txt', train_txt='./data_example/train.txt',
-                      val_txt='./data_example/test_new.txt', test_txt='./data_example/test_new.txt',
-                      result_dir='./output_20200918/result')
+                      chars_file='./data/chars/lexicon.txt', train_txt='./data_example/train.txt'
+#                       , val_txt='./data_example/test_new.txt'
+#                       , test_txt='./data_example/test_new.txt'
+                      , val_txt=None
+                      , test_txt=None
+                      , result_dir='./output_20200918/result')
 
 
 if __name__ == '__main__':
