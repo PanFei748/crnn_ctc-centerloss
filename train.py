@@ -267,7 +267,7 @@ def main():
 #                       , ckpt_dir='./output_20200918/checkpoint/default'
                       , ckpt_dir='./default'
             
-                      chars_file='./data/chars/lexicon.txt', train_txt='./data_example/train.txt'
+                      , chars_file='./data/chars/lexicon.txt', train_txt='./data_example/train.txt'
 #                       , val_txt='./data_example/test_new.txt'
 #                       , test_txt='./data_example/test_new.txt'
                       , val_txt=None
